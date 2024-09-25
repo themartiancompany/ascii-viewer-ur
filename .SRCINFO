@@ -8,7 +8,7 @@ pkgbase = ascii-viewer
 	checkdepends = shellcheck
 	depends = coreutils
 	depends = libcrash-bash
-	depends = termux-tools
+	depends = sdotool
 	source = ascii-viewer-94430623791477a74717668efb3ec102e894064f.zip::https://github.com/themartiancompany/ascii-viewer/archive/94430623791477a74717668efb3ec102e894064f.zip
 	sha256sums = 1b1d013a33901ccf3d88710124bc1e65a1020279962ada65af3ea1e7a5011c60
 
