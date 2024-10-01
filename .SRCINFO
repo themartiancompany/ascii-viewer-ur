@@ -8,8 +8,8 @@ pkgbase = ascii-viewer
 	checkdepends = shellcheck
 	depends = coreutils
 	depends = libcrash-bash
-	depends = sdotool
-	source = ascii-viewer-94430623791477a74717668efb3ec102e894064f.zip::https://github.com/themartiancompany/ascii-viewer/archive/94430623791477a74717668efb3ec102e894064f.zip
-	sha256sums = 1b1d013a33901ccf3d88710124bc1e65a1020279962ada65af3ea1e7a5011c60
+	depends = kbd
+	source = ascii-viewer-025d84bc26e36aa18bafa6aec0f4e2ffe0206a1c.zip::https://github.com/themartiancompany/ascii-viewer/archive/025d84bc26e36aa18bafa6aec0f4e2ffe0206a1c.zip
+	sha256sums = 5bb40e7032bd16aeae6478b4c08ec5ac3a69e91f1e60a3b6749db244977cda31
 
 pkgname = ascii-viewer

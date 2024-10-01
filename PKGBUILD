@@ -7,7 +7,7 @@ _offline="false"
 _git="false"
 pkgname=ascii-viewer
 pkgver="0.0.0.0.0.0.0.0.0.0.1"
-_commit="94430623791477a74717668efb3ec102e894064f"
+_commit="025d84bc26e36aa18bafa6aec0f4e2ffe0206a1c"
 pkgrel=1
 _pkgdesc=(
   "Cross-platform ASCII picture viewer."
@@ -32,7 +32,12 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
-    sdotool
+    'sdotool'
+  )
+[[ "${_os}" == "GNU/Linux" ]] && \
+[[ "${_os}" != "Android" ]] && \
+  depends+=(
+    'kbd'
   )
 optdepends=(
 )
@@ -70,7 +75,7 @@ _tarname="${pkgname}-${_tag}"
     _sum='b245547bdcdbfeb09f400305a4b515b6d49635be90f560a39302761fc2688571'
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="1b1d013a33901ccf3d88710124bc1e65a1020279962ada65af3ea1e7a5011c60"
+    _sum="5bb40e7032bd16aeae6478b4c08ec5ac3a69e91f1e60a3b6749db244977cda31"
   fi && \
     source+=(
       "${_tar}"
