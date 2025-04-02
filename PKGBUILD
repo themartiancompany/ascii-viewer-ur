@@ -45,6 +45,7 @@ fi
 if [[ ! -v "_docs" ]]; then
   _docs="true"
 fi
+_py="python"
 pkgname=ascii-viewer
 pkgver="0.0.0.0.0.0.0.0.0.0.1.1.1.1"
 _commit="3995f76762b6fa6134205d0dfe171975f31a4742"
