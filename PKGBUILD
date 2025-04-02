@@ -93,7 +93,7 @@ makedepends=(
 )
 if [[ "${_docs}" == "true" ]]; then
   makedepends+=(
-    "${py}-docutils"
+    "${_py}-docutils"
   )
 fi
 checkdepends=(
