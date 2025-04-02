@@ -113,10 +113,10 @@ fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
-_archive_sum='45fe7be9ddd1eb739410be0d08f941b1824f3d297c817c92a75cbb90d9fbe68d'
+_archive_sum='67d11d81dccf0d67b673070605ef87db3669a8d4fa462ecb1f9e4d13c37e9f66'
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
-_archive_sig_sum="fa7ad41a33d5bbf2983663d1b787f5959098cb6826be1dc3eca665ed5b40dcfa"
+_archive_sig_sum="b5659b845ccd9b582d926f855bf7d3aed0e2b63955b9fa5961a7a673384c0adb"
 _archive_sig_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sig_sum}"
 _archive_sig_src="${_tarname}.zip.sig::${_archive_sig_uri}"
 if [[ "${_evmfs}" == "true" ]]; then
