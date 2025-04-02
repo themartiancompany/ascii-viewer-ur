@@ -46,8 +46,8 @@ if [[ ! -v "_docs" ]]; then
   _docs="true"
 fi
 pkgname=ascii-viewer
-pkgver="0.0.0.0.0.0.0.0.0.0.1"
-_commit="025d84bc26e36aa18bafa6aec0f4e2ffe0206a1c"
+pkgver="0.0.0.0.0.0.0.0.0.0.1.1.1.1"
+_commit="3995f76762b6fa6134205d0dfe171975f31a4742"
 pkgrel=1
 _pkgdesc=(
   "Cross-platform ASCII picture viewer."
